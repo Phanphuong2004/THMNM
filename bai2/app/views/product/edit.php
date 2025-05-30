@@ -10,7 +10,7 @@
         </ul>
     </div>
 <?php endif; ?>
-<form method="POST" action="/webbanhang/Product/update" enctype="multipart/form-data" onsubmit="return validateForm();">
+<form method="POST" action="/bai2/Product/update" enctype="multipart/form-data" onsubmit="return validateForm();">
     <input type="hidden" name="id" value="<?php echo $product->id; ?>">
     <div class="form-group">
         <label for="name">Tên sản phẩm:</label>
@@ -44,6 +44,6 @@
     </div>
     <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
 </form>
-<a href="/webbanhang/Product/list" class="btn btn-secondary mt-2">Quay lại danh sách sản phẩm</a>
+<a href="/bai2/Product/list" class="btn btn-secondary mt-2">Quay lại danh sách sản phẩm</a>
 
 <?php include 'app/views/shares/footer.php'; ?>

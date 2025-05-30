@@ -15,10 +15,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/webbanhang/Product/">Danh sách sản phẩm</a>
+                    <a class="nav-link" href="/bai2/Product/">Danh sách sản phẩm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/webbanhang/Product/add">Thêm sản phẩm</a>
+                    <a class="nav-link" href="/bai2/Product/add">Thêm sản phẩm</a>
                 </li>
             </ul>
         </div>
